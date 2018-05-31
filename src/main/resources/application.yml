@@ -1,0 +1,15 @@
+server:
+  port: 80
+name: hirror_韩
+age: 22
+content: "name:${name},age:${age}"
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:myqsql://127.0.0.1:3306/
+    username: root
+    password: printf
+    driver-class-name: com.mysql.jdbc.Driver
